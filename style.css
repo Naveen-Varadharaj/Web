@@ -1,0 +1,215 @@
+
+@media (min-width: 800px){
+body{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url('download.jfif');   
+    background-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+    display: inline-block; 
+    width: 200px;
+}
+
+.li{
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    border-radius: 70%;
+    color: white;
+    background-color: blue;
+}
+#c1{
+    text-align: center;
+}
+#content1{
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 70px;
+    padding: 10px;
+    width: 60%;
+    height: 80%;
+    
+    
+}
+.but{
+    
+    margin: 0px 85px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #e7e5e5;
+    border-color:transparent;
+    color: gray;
+}
+#but1, #but2, #but3, #but4, #but5{
+    margin: 0px 85px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 102, 255, 0.871);
+    color: white;
+}
+#t1, #t2, #t3, #t4, #t5{
+    color: rgba(0, 102, 255, 0.871);
+}
+.pt{
+    margin-top:5px; 
+}
+#file{
+    margin-top:5px;
+    border-style: dotted;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border-color: gray;  
+}
+#b1{
+    margin-top: 5px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border-color: transparent;
+    float:right;
+    color:white;
+    background-color: rgba(0, 123, 255, 0.863);
+}
+#b2{
+    margin: 5px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border-color: transparent;
+    float:right;
+    color: black;
+    background-color:#cecdcd;
+}
+textarea{
+        width: 100%;
+}
+#d1, #d2{
+    float:left;
+    width: 25%;
+    margin-right:auto;
+}
+
+#d3{
+    float:left;
+    width: fit-content;
+}
+
+#padd{
+    float: none;
+}
+
+.ta{
+    height: 70px;
+    width: 100%;
+}
+}
+
+@media(max-width:800px) {
+    body{
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;   
+        background-image: url('download.jfif');   
+        background-size: 100%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    li{
+        display: inline-block; 
+        justify-content: space-between;
+        margin: 0px 10px;
+        font-size: small
+    }
+    
+    .li{
+        margin: 0px;
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 70%;
+        color: white;
+        background-color: blue;
+    }
+    #c1{
+        width: 100%;
+        text-align: center;
+    }
+    #content1{
+        margin:auto;
+        margin-top: 50px;
+        padding: 10px;
+        width: 70%;
+        background-color: white;
+        border-color: white;
+        border-radius: 5px;  
+    }
+    .but{
+        margin: 0px, 0px;
+        border-radius: 50%;
+        background-color: #e7e5e5;
+        border-color:transparent;
+        color: gray;
+    }
+    #but1, #but2, #but3, #but4, #but5{
+        margin: 0px 0px;
+        margin-top: 10px;
+        border-radius: 50%;
+        background-color: rgba(0, 102, 255, 0.871);
+        color: white;
+    }
+    #t1, #t2, #t3, #t4, #t5{
+        color: rgba(0, 102, 255, 0.871);
+    }
+    .pt{
+        margin-top:5px;   
+    }
+    
+    #file{
+        margin-top:2px;
+        border-style: dotted;
+        padding: 10px 10px;
+        border-radius: 5px;
+        width: 80%;
+        border-color: gray;
+    }
+
+    #b1{
+        margin-top: 5px;
+        padding: 2px 8px;
+        border-radius: 5px;
+        border-color: transparent;
+        float:right;
+        color:white;
+        background-color: rgba(0, 123, 255, 0.863);
+    }
+    #b2{
+        margin: 5px;
+        padding: 2px 8px;
+        border-radius: 5px;
+        border-color: transparent;
+        float:right;
+        color: black;
+        background-color:#cecdcd;
+    }
+    textarea{
+        width: 60%;
+    }
+    #d1, #d2{
+        float:none;
+        width: 50%;
+        margin-bottom:20px;
+    }
+    
+    #d3{
+        margin-top: 0px;
+        width: fit-content;
+    }
+    .ta{
+        height: 70px;
+        width: 80%;
+    }
+    }
